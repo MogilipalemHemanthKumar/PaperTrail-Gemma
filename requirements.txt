@@ -1,0 +1,24 @@
+# API & server
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.6
+python-multipart>=0.0.9
+python-dotenv>=1.0.1
+aiofiles>=23.2.1
+
+# LM Studio client (OpenAI-compatible)
+openai>=1.40.0
+
+# PDF text extraction + image OCR
+PyMuPDF>=1.24.0
+pytesseract>=0.3.10
+Pillow>=10.4.0
+
+# Vector store
+chromadb>=0.6.0
+
+# Data validation
+pydantic>=2.10.0
+
+# Frontend
+gradio>=5.0.0
+requests>=2.32.0
